@@ -1,0 +1,34 @@
+# Initialize variable
+x = 10
+y = 5
+
+# Simple assignment
+print("Initial value of x:", x)
+
+# Using +=
+x += y  # x = x + y
+print(f"After x += y, x = {x}")
+
+# Using -=
+x -= y  # x = x - y
+print(f"After x -= y, x = {x}")
+
+# Using *=
+x *= y  # x = x * y
+print(f"After x *= y, x = {x}")
+
+# Using /=
+x /= y  # x = x / y
+print(f"After x /= y, x = {x}")
+
+# Using %=
+x %= y  # x = x % y
+print(f"After x %= y, x = {x}")
+
+# Using //=
+x //= y  # x = x // y
+print(f"After x //= y, x = {x}")
+
+# Using **=
+x **= y  # x = x ** y
+print(f"After x **= y, x = {x}")
